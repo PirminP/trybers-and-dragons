@@ -1,5 +1,3 @@
-# :construction: README em construção ! :construction:
-
 # Project Trybers and Dragons
 #### This project consists of a class structure for creating characters in a Role Playing Game.
 
