@@ -8,6 +8,31 @@
 
 It is possible to create characters with their race (dwarf, elf, halfling or orc) and their archetypes (mage, necromancer, ranger or warrior), along with information on their name, life points, energy type, dexterity and defense, as shown below:
 
+  ```
+  src
+  ├── Archetypes
+      ├── Mage
+      ├── Necromancer
+      ├── Ranger
+      └── Warrior
+  ├── Defense
+  ├── Dexterity
+  ├── Energy
+  ├── LifePoints
+  ├── MaxLifePoints
+  ├── Name
+  ├── Race
+      ├── Dwarf
+      ├── Elf
+      ├── Halfling
+      └── Orc
+  ├── attack()
+  ├── levelUp()
+  └── receiveDamage()
+
+```
+
+
 ### Instructions
 * To run the repository locally, clone the project and use the following commands to initialize Docker & install all dependencies:
 
